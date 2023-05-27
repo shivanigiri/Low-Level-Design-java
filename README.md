@@ -64,10 +64,11 @@ Ensures only a single instance of a class is created and provides a global point
 ## Factory Method
 Defines an interface for creating objects but lets subclasses decide which class to instantiate.
 - Document creation in word processors, where different subclasses of the Document class handle the creation of specific document types.
-- Vehicle Manufacturing System
--
+- database Selection system
+
 ## Abstract Factory
 Provides an interface for creating families of related or dependent objects without specifying their concrete classes.
+- Vehicle Manufacturing System
 - GUI toolkits that provide different UI elements such as buttons, menus, and windows for different operating systems.
 
 ## Builder:

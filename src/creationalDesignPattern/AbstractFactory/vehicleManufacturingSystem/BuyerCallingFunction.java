@@ -24,7 +24,7 @@ public class BuyerCallingFunction {
             System.out.println("Created a " + vehicleTruck.getType() + " of variant " +vehicleTruck.getVariant());
             vehicleTruck.manufacture();
         }
-        // this will not print anything since vehicle is carType and we are passing variant type of truck.
+        // this will not print anything since vehicle is carType, we are passing variant type of truck.
         vehicleFactory= new CarFactory();
         Vehicle vehicle= vehicleFactory.createVehicle("pickup");
         if(Objects.nonNull(vehicle)) {
